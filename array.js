@@ -5,4 +5,13 @@ const flattendArray = arr.reduce(
 );
 
 
+
+let favColors = [ "red", "Green" , "blue"]
+
+favColors[4] = "green"
+
+console.log(favColors)
+console.log (typeof(favColors))//thisis also an object
+
+console.log(favColors[0])
 console.log(flattendArray)
